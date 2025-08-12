@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Learn the fundamentals of HTML5, accessibility, and SEO with this beginner-friendly page layout example." />
+  <meta name="keywords" content="HTML5, accessibility, SEO, semantic HTML, web development basics" />
+  <meta name="author" content="Your Name" />
+  <title>HTML5 Accessibility & SEO Basics</title>
+</head>
+<body>
+
+  <!-- Site Header -->
+  <header role="banner">
+    <h1>Purity HTML Assignment week 1</h1>
+    
+  </header>
+
+  <!-- Navigation Section -->
+  <nav role="navigation" aria-label="Main Navigation">
+    <ul>
+      <li><a href="#about" title="Learn more about this page">About</a></li>
+      <li><a href="#benefits" title="Understand the benefits">Benefits</a></li>
+      <li><a href="#tips" title="Get tips on implementation">Tips</a></li>
+      <li><a href="#contact" title="Contact us">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- Main Content Area -->
+  <main role="main">
+    <section id="about" aria-labelledby="about-heading">
+      <h2 id="about-heading">About This Page</h2>
+      <p>This page is built using modern HTML5 to demonstrate how to structure content semantically while ensuring accessibility and search engine friendliness. The layout avoids unnecessary elements and focuses on clarity and purpose.</p>
+    </section>
+
+    <section id="benefits" aria-labelledby="benefits-heading">
+      <h2 id="benefits-heading">Why Accessibility & SEO Matter</h2>
+      <article>
+        <h3>Accessibility</h3>
+        <p>Web accessibility ensures that all users, including those with disabilities, can navigate and understand the content. Using proper landmarks and attributes improves user experience for everyone.</p>
+      </article>
+      <article>
+        <h3>SEO (Search Engine Optimization)</h3>
+        <p>SEO helps the content be found by users through search engines. Structuring content with headings, metadata and descriptive text boosts visibility and engagement.</p>
+      </article>
+    </section>
+
+    <section id="tips" aria-labelledby="tips-heading">
+      <h2 id="tips-heading">Best Practices & Tips</h2>
+      <ul>
+        <li>Use semantic tags like <code>&lt;header&gt;</code>, <code>&lt;nav&gt;</code>, <code>&lt;main&gt;</code> and <code>&lt;section&gt;</code>.</li>
+        <li>Organize content with clear heading levels (<code>&lt;h1&gt;</code> to <code>&lt;h6&gt;</code>).</li>
+        <li>Provide alt text for images (not shown here but essential when using <code>&lt;img&gt;</code>).</li>
+        <li>Use descriptive link text and avoid "click here".</li>
+        <li>Include metadata in the <code>&lt;head&gt;</code> for better SEO.</li>
+      </ul>
+    </section>
+  </main>
+
+  <!-- Contact Section -->
+  <aside aria-labelledby="contact-heading">
+    <h2 id="contact-heading">Contact Me</h2>
+    <p>For feedback or collaboration opportunities, please <a href="mailto:puritymutunga6@gmail.com" title="Email us">email me</a>.</p>
+  </aside>
+
+  <!-- Footer -->
+  <footer role="contentinfo">
+    <p>&copy; 2025 PurieTech. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
